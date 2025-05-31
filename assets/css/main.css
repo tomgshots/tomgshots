@@ -1941,10 +1941,84 @@ footer .button:hover {
   footer i {
 	color: white; /* Changes the color of all icons in the footer */
   }
+  /* Main body styles */
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	background-color: #1a1a1a; /* Dark background */
+	color: #fff; /* White text */
+  }
   
+  /* Header style */
+  header {
+	background-color: #333; /* Dark grey background */
+	padding: 20px;
+	text-align: center;
+  }
   
+  /* Message box at the top of each page */
+  .message {
+	background-color: #f0f0f0; /* Light grey background */
+	color: #333; /* Dark text */
+	padding: 10px;
+	font-size: 1em;
+	text-align: center;
+	margin: 20px 0;
+	width: 100%;
+  }
   
+  /* Gallery album grid */
+  .gallery {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+  }
   
+  .album {
+	margin: 10px;
+	width: 30%;
+	text-align: center;
+  }
   
-
- 
+  .album img {
+	width: 100%;
+	height: auto;
+	border-radius: 8px;
+  }
+  
+  /* Footer style */
+  footer {
+	background: transparent;
+	padding: 1rem 0;
+	text-align: center;
+  }
+  
+  .footer-content {
+	display: inline-flex;
+	gap: 2rem;
+	align-items: center;
+	justify-content: center;
+  }
+  
+  .footer-content a.button {
+	background-color: #333;
+	color: white;
+	padding: 0.5rem 1rem;
+	border-radius: 5px;
+	text-decoration: none;
+  }
+  
+  .footer-content a.button:hover {
+	background-color: #555;
+  }
+  
+  .footer-content a i {
+	color: #ccc;
+	transition: color 0.2s ease;
+  }
+  
+  .footer-content a i:hover {
+	color: white;
+  }
+  
